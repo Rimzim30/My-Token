@@ -31,11 +31,10 @@ contract MyToken {
         balances[_address] += _value;
         }
     // burn function
-function burn (address _address, uint _value)public{
-      if (balances[_address] >= _value)
-     {
+     function burn (address _address, uint _value)public{
+      if (balances[_address] >= _value) {
       TotalSupply -= _value;
       balances[_address] -= _value;
-     }
+       }
      }   
 }
