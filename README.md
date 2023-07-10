@@ -14,4 +14,4 @@ The mint function increases the value of total supply and balance address . In t
 
 The burn function reduces the value of total supply and balance address .In this _value type local variable was used.
 
-When the code was deployed, the tokenName, tokenAbb and the totalSupply was 
+When the code was deployed, the total supply of token was reduced by changing the value of _total supply.
